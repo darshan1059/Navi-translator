@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+
+:root {
+    --white-color: white;
+    --primary-color: rgba(40, 25, 175, 0.479);
+    --display-color: #DBEAFE;
+    --black-color: black;
+}
+
+body {
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0px;
+    text-align: justify;
+    background-image: url(/image/avatar.jpg);
+    background-color: var(--white-color);
+
+}
+
+
+textarea {
+    background-color: var(--display-color);
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    min-height: 20vh;
+    margin-top: 1rem;
+    font-size: large;
+    font-family: inherit;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--black-color)
+}
+
+.output-component {
+    color: var(--black-color);
+    background-color: var(--display-color);
+    box-sizing: border-box;
+    width: 50%;
+    min-height: 20vh;
+    max-height: 20vh;
+    overflow: scroll;
+    /* border: 1px solid var(--white-color); */
+    border: 1px solid var(--black-color);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+
+}
+
+nav {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.container {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.container-body {
+    padding: 1rem;
+    margin: auto;
+    /* max-width: 600px; */
+}
+
+footer {
+    color: var(--white-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+
+div{
+    color: var(--white-color);
+    font-size: larger;
+}
