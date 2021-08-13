@@ -49,10 +49,11 @@ textarea {
 }
 
 button {
+    width: max-content;
     border: 1px solid var(--white-color);
     background-color: var(--primary-color);
     color: var(--white-color);
-    margin: 1rem 19rem;
+    margin: 1rem 1rem;
     padding: 1rem 2rem;
 
 }
